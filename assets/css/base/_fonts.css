@@ -38,7 +38,8 @@
 }
 
 .fa-film::before {
-  content: "\f008"; }
+  content: "\f008"; 
+}
 
 .fa-tv::before {
   content: "\f26c"; 
