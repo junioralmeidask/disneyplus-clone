@@ -5,7 +5,7 @@
 }
 .user-menu__background {
     animation: slideDown .4s;
-    background: #141414;
+    background-color: #141414;
     border: 1px solid #393939;
     border-radius: .5rem;
     height: 100%;
@@ -60,6 +60,21 @@
     display: none;
 }
 
-.user-menu:hover .show-hover {
+.user-menu:hover .show-hover,
+.user-menu:hover .user-profile__title {
     display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .user-menu .user-profile__title {
+        display: none;
+    }
+
+    .user-menu .user-profile__avatar {
+        height: 3.6rem;
+        width: 3.6rem;
+    }
+    .user-menu__current-profile {
+        padding-top: 1.9rem;
+    }
 }
