@@ -1,7 +1,7 @@
 const header = document.querySelector('[data-header]')
 const openNavSubmenu = document.querySelector('[data-open-navsubmenu]')
 const navSubmenu = document.querySelector('[data-navsubmenu]')
-const userOpenMenu = document.querySelector('[data-open-usermenu]')
+const openUserMenu = document.querySelector('[data-open-usermenu]')
 const userMenu = document.querySelector('[data-usermenu]')
 
 function onWindowScroll () {
@@ -25,7 +25,7 @@ function onTouchOpenUserMenu(event) {
 function setListeners() {
     window.addEventListener('scroll', onWindowScroll)
     openNavSubmenu.addEventListener('touchstart', onTouchOpenNavSubmenu)
-    userMenu.addEventListener('touchstart', onTouchOpenUserMenu)
+    openUserMenu.addEventListener('touchstart', onTouchOpenUserMenu)
 }
 
 function init() {
