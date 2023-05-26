@@ -9,8 +9,8 @@
     border: 1px solid #393939;
     border-radius: .5rem;
     height: 100%;
-    width: 100%;
     position: absolute;
+    width: 100%;
     z-index: 1;
 }
 
@@ -29,7 +29,7 @@
     padding: 1.3rem 2rem;
 }
 
-.user-menu__profiles{
+.user-menu__profiles {
     border-top: 1px solid #393939;
     margin-left: 2rem;
     margin-right: 2rem;
