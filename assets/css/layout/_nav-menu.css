@@ -63,9 +63,13 @@
     border: .1rem solid #393939;
     border-radius: .5rem;
     display: none;
+    margin: 2rem;
     padding: 0.4rem;
     position: relative;
-    top: -1.3rem;
+}
+
+.nav-submenu.active {
+    display: block;
 }
 
 .nav-submenu__text {
@@ -90,7 +94,7 @@
 
     .nav-menu__link {
         font-size: 1.6rem;
-        padding: 1.6rem;
+        padding: 3rem;
 
     }
 
