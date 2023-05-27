@@ -5,76 +5,95 @@
     overflow: hidden;
 }
 
-.banner-slider {
+  .banner-slider {
     display: flex;
     position: relative;
-}
-
-.banner-slider__item {
+  }
+  
+  .banner-slider__item {
     flex-shrink: 0;
     padding: 0 1rem 3rem;
     position: relative;
     width: 90vw;
-}
-
-.banner-slider__counter {
-    font-size: 2rem;
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
-    z-index: 10;
-}
-
-.banner-slider__link {
+  }
+  
+  .banner-slider__link {
     display: block;
     position: relative;
-}
+  }
 
-.banner-slider__link::before {
-    border: 4px solid rgba(255, 255, 255, 0);;
-    border-radius: .5rem;
-    content: '';
-    position: absolute;
+  .banner-slider__link::before {
+    border: 0.4rem solid rgba(255, 255, 255, 0);
+    border-radius: 0.5rem;
+    content: "";
     inset: 0;
-    transition: border .3s;
-}
+    position: absolute;
+    transition: border 0.3s;
+  }
 
-.banner-slider__link:hover::before {
+  .banner-slider__link:hover::before {
     border-color: rgba(255, 255, 255, 0.7);
-}
+  }
 
-.banner-slider__cover {
-    border-radius: .5rem;
+  .banner-slider__cover {
+    border-radius: 0.5rem;
     box-shadow: #000 0rem 2rem 3rem -2rem;
     display: block;
     width: 100%;
-}
-
-.banner-slider__title {
+  }
+  
+  .banner-slider__title {
+    animation: slideLeft 1s;
+    display: none;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
-}
-
-.banners .arrow-slider{
+  }
+  
+  .banner-slider__title.active {
+  display: block;
+  }
+  
+  .banners .arrow-slider {
     margin-top: -3rem;
     position: absolute;
     z-index: 2;
-
-}
-
-.banners .arrow-slider--left {
+  }
+  
+  .banners .arrow-slider--left {
     left: 3.6rem;
-
-}
-
-.banners .arrow-slider--right {
+  }
+  
+  .banners .arrow-slider--right {
     right: 3.6rem;
-
-}
-
-.banners .controls-slider {
+  }
+  
+  .banners .controls-slider {
     bottom: 4.6rem;
     right: 11.6rem;
-}
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .banners {
+      padding-top: 8.2rem;
+    }
+  
+    .banner-slider__item {
+      width: 85vw;
+    }
+  
+    .banners .arrow-slider--left {
+      left: 1rem;
+    }
+  
+    .banners .arrow-slider--right {
+      right: 1rem;
+    }
+  
+    .banners .controls-slider {
+      bottom: 4.2rem;
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }

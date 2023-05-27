@@ -1,6 +1,5 @@
 .nav-menu {
     margin-left: 3.7rem;
-
 }
 
 .nav-menu__item {
@@ -46,16 +45,13 @@
     width: 100%;
 }
 
-
 .nav-menu__item.dropdown {
     display: none;
-
 }
 
 .nav-menu__item.dropdown:hover .nav-submenu{
     display: block;
 }
-
 
 .nav-submenu {
     animation: showFade .5s;
@@ -64,9 +60,8 @@
     border-radius: .5rem;
     display: none;
     margin: 1rem;
-    padding: .4rem 0;
-    position: relative;
-    top: -3.8rem;
+    padding: 0.4rem 0;
+    position: absolute;
 }
 
 .nav-submenu.active {
@@ -74,7 +69,7 @@
 }
 
 .nav-submenu__text {
-    margin-left: 1rem;
+    margin-left: 1.2rem;
     position: relative;
 }
 
@@ -96,7 +91,5 @@
     .nav-menu__link {
         font-size: 1.6rem;
         padding: 3rem 1.6rem;
-
     }
-
 }
