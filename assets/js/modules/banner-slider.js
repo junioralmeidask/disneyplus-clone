@@ -186,7 +186,7 @@ function setListeners() {
 
 function init() {
     setVisibleSlide(2)
-    setListeners();
+    setListeners(); 
 }
 
 export default {

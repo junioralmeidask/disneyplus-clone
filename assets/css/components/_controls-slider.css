@@ -11,3 +11,13 @@
     cursor: pointer;
     margin: 0 .5rem;
 }
+
+.controls-slider__item::before {
+    content: '\f111';
+    font-family: 'Font Awesome 6 Free';
+    font-size: .9rem;
+}
+
+.controls-slider__item.active {
+    color: #fff;
+}
