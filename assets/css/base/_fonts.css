@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-
 :root, :host {
-  --fa-style-family-classic: 'Font Awesome 6 Free';
   --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"; }
 
 @font-face {
@@ -17,7 +15,7 @@
 .fas,
 .fa-solid {
   font-family: 'Font Awesome 6 Free';
-  font-weight: 900; 
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -26,10 +24,10 @@
 }
 
 .fa-magnifying-glass::before {
-  content: "\f002";
+  content: "\f002"; 
 }
 
-.fa-plug::before {
+.fa-plus::before {
   content: "\2b"; 
 }
 
@@ -48,4 +46,3 @@
 .fa-ellipsis-vertical::before {
   content: "\f142"; 
 }
-

@@ -3,6 +3,7 @@
     top: 0;
     right: 0;
 }
+
 .user-menu__background {
     animation: slideDown .4s;
     background-color: #141414;
@@ -30,10 +31,10 @@
 }
 
 .user-menu__profiles {
-    border-top: 1px solid #393939;
     margin-left: 2rem;
     margin-right: 2rem;
-    padding: .9rem;
+    padding-top: .9rem;
+    border-top: 1px solid #393939;
 }
 
 .user-menu__options {
@@ -60,7 +61,6 @@
     display: none;
 }
 
-
 .user-menu:hover .show-hover,
 .user-menu:hover .user-profile__title {
     display: block;
@@ -71,11 +71,10 @@
     display: block;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
     .user-menu .user-profile__title {
         display: none;
     }
-
     .user-menu .user-profile__avatar {
         height: 3.6rem;
         width: 3.6rem;

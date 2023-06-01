@@ -13,7 +13,7 @@
     display: inline-block;
     font-size: 1.3rem;
     letter-spacing: 0.1rem;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 
 .nav-menu__link {
@@ -34,9 +34,9 @@
     background: #fff;
     bottom: -.8rem;
     content: '';
-    height: .2px;
+    height: .2rem;
     position: absolute;
-    transition: width .10s;
+    transition: width .2s;
     width: 0;
 }
 
@@ -49,17 +49,17 @@
     display: none;
 }
 
-.nav-menu__item.dropdown:hover .nav-submenu{
+.nav-menu__item.dropdown:hover .nav-submenu {
     display: block;
 }
 
 .nav-submenu {
     animation: showFade .5s;
     background: #141414;
-    border: .1px solid #393939;
+    border: .1rem solid #393939;
     border-radius: .5rem;
     display: none;
-    margin: 1rem;
+    margin: -2rem;
     padding: 0.4rem 0;
     position: absolute;
 }
@@ -90,6 +90,6 @@
 
     .nav-menu__link {
         font-size: 1.6rem;
-        padding: 3rem 1.6rem;
+        padding: 2.8rem 1.6rem;
     }
 }

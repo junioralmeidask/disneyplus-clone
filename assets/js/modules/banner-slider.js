@@ -149,7 +149,6 @@ function onTouchEnd(event) {
 function setListeners() {
     btnNext.addEventListener('click', forwardSlide)
     btnPrevious.addEventListener('click', backwardSlide)
-
     sliderItems.forEach(function (slide, index) {
         const link = slide.querySelector(".banner-slider__link");
         link.addEventListener("click", preventDefault);
