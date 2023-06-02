@@ -1200,28 +1200,28 @@
         "userProfiles": [
             {
                 "id": "9460638b-41d0-41f8-bc81-e09760824577",
-                "name": "Felipe",
-                "avatar": "/content/media/users/avatar/felipe.png"
+                "name": "Prof. Thiago",
+                "avatar": "/content/media/users/avatar/thiago.png"
             },
             {
                 "id": "b48308b5-95d2-41ad-9008-868ca942b51a",
-                "name": "Chloe",
-                "avatar": "/content/media/users/avatar/chloe.png"
+                "name": "Wagner",
+                "avatar": "/content/media/users/avatar/wagner.png"
             },
             {
                 "id": "3e2690ec-d5c6-466b-84b1-d9c6cd21e742",
-                "name": "Fabrício",
-                "avatar": "/content/media/users/avatar/fabricio.png"
+                "name": "Felipy",
+                "avatar": "/content/media/users/avatar/felipy.png"
             },
             {
                 "id": "996151cb-2850-4e2a-90f2-36a3d1ba04e2",
-                "name": "Iara",
-                "avatar": "/content/media/users/avatar/iara.png"
+                "name": "Otiniel",
+                "avatar": "/content/media/users/avatar/otiniel.png"
             },
             {
                 "id": "ffd7d1d7-7651-4790-a835-3c2c18ac49a9",
-                "name": "Rafael",
-                "avatar": "/content/media/users/avatar/rafael.png"
+                "name": "David",
+                "avatar": "/content/media/users/avatar/david.png"
             }
         ]
     }
