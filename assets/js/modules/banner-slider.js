@@ -45,7 +45,6 @@ const bannerSliderModule = () => {
         imgTitles.forEach(function(item) {
             item.classList.remove('active')
         })
-
         const imgTitle = imgTitles[index]
         imgTitle.classList.add('active')
     }
@@ -174,7 +173,6 @@ const bannerSliderModule = () => {
             })
             slide.addEventListener('touchend', onTouchEnd)
         })
-
         let resizeTimeOut;
         window.addEventListener('resize', function(event) {
             clearTimeout(resizeTimeOut)
@@ -182,7 +180,11 @@ const bannerSliderModule = () => {
                 onResizeWindow()
             }, 1000)
         })
+    }
 
+    function init() {
+        setVisibleSlide(2)
+        setListeners()
     }
 
     return {

@@ -73,7 +73,6 @@ const collectionsModule = () => {
         } else {
             setVisibleSlide(state.currentSlideIndex)
         }
-
     }
 
     const forwardSlide = () => {
@@ -197,7 +196,6 @@ const collectionsModule = () => {
                 currentCollectionIndex = collectionIndex
                 onMouseDown(event, itemIndex)
             })
-
             item.addEventListener('mouseup', onMouseUp)
             item.addEventListener('mouseleave', onMouseLeave)
             item.addEventListener('touchstart', function(event) {
